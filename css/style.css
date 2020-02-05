@@ -68,3 +68,22 @@ section > h1 {
   display: inline-block;
   margin: 0 5px;
 }
+h1::first-line{
+  color: rebeccapurple;
+  font-size: 40px;
+}
+h1::first-letter{
+  color: red;
+  font-size: 200%;
+}
+h2::first-line{
+  color: white;
+
+}
+h2::first-letter{
+  color: red;
+  font-size: 200%;
+}
+p::first-line{
+  font-weight: bold;
+}
